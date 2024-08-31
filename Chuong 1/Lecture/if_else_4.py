@@ -12,5 +12,5 @@ elif 5 <= avgMark <= 7:
     print("D")
 elif 0 <= avgMark <= 5:
     print("E")
-elif avgMark < 0:
+else:
     print("diem khong hop le")
