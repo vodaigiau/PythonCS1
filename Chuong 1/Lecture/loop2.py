@@ -5,5 +5,4 @@ soNguyen = 2
 while soNguyen <= 2*n:
     sum += soNguyen
     soNguyen += 2
-
-print(f"Tong S cua 2{n} :{sum}")
+print(f"Tong S cac soNguyen {n} la:{sum}")
