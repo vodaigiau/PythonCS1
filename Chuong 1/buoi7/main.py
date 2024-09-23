@@ -34,10 +34,10 @@ ninja_image = pygame.transform.scale(ninja_image,(ninja_image.get_width()/3, nin
 x_ninja = 0
 y_ninja = 0
 
-#load nhạc nền
-# sound_game = pygame.mixer.Sound('./sound/sound_1.wav')
-# sound_game.play(-1)
-# sound_game.set_volume(0.5)
+load nhạc nền
+sound_game = pygame.mixer.Sound('./sound/sound_1.wav')
+sound_game.play(-1)
+sound_game.set_volume(0.5)
 
 #surface Text 
 # 1000ms = 1s; 60s = 1min
