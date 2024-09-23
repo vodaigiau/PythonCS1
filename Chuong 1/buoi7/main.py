@@ -53,8 +53,8 @@ while running:
     # cần load lại nhiều lần 
     
     # time =pygame.time.get_ticks()# milisecond (mili giây) hiện tại
-    time = pygame.time.get_ticks() //10000 # đổi qua giây
-    time_title = font_game.render(f'Time: {time} s',True, "Pink")
+    time = pygame.time.get_ticks() //1000 # đổi qua giây
+    time_title = font_game.render(f'Time: {time}',True, "Pink")
     
     screen.blit(bg_image,(x_bg,y_bg) )
     
