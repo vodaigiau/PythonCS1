@@ -136,7 +136,7 @@ while running:
         weapon_rect.x = ninja_rect.x + ninja_image.get_width()//2 - weapon_image.get_width()//2
         weapon_rect.y = ninja_rect.y + ninja_image.get_width()//2 - weapon_image.get_height()//2
     weapon_rect.x += 3
-    
+    # adsadsadasdasdasdasd
     
     # load lại màn hình
     pygame.display.flip()
