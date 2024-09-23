@@ -35,7 +35,7 @@ x_ninja = 0
 y_ninja = 0
 
 load nhạc nền
-sound_game = pygame.mixer.Sound('./sound/sound_1.wav')
+sound_game = pygame.mixer.Sound('./funny-african-tabla-230535.mp3')
 sound_game.play(-1)
 sound_game.set_volume(0.5)
 
